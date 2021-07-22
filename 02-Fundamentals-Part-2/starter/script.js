@@ -251,3 +251,11 @@
 // console.log(john.bmi, mark.bmi)
 
 // console.log(john['height'])
+
+
+//for loop
+
+
+for (let rep = 1; rep <= 30; rep++) {
+    console.log(`Lifting weights repetition ${rep}`);
+}
