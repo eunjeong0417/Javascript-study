@@ -172,17 +172,82 @@
 
 // checkWinner(1=00, 400);
 
-const calcAge = function (birthYear) {
-    return 2037 - birthYear;
-}
+// const calcAge = function (birthYear) {
+//     return 2037 - birthYear;
+// }
 
-const years = [1990, 1967, 2002, 2010, 2018]
+// const years = [1990, 1967, 2002, 2010, 2018]
 
-const age1 = calcAge(years[0]);
-const age2 = calcAge(years[1]);
-const age3 = calcAge(years[years.length - 1]);
-console.log(age1, age2, age3)
+// const age1 = calcAge(years[0]);
+// const age2 = calcAge(years[1]);
+// const age3 = calcAge(years[years.length - 1]);
+// console.log(age1, age2, age3)
 
-const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])]
+// const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])]
 
-console.log(ages);
+// console.log(ages);
+
+//Add element
+// const friends = ['Michael', 'Steven', 'Peter'];
+// const newLength = friends.push('Jay')
+// console.log(newLength)
+
+// friends.unshift('John');
+// console.log(friends);
+
+//Remove element
+
+// const popped1 = friends.pop();
+// const popped = friends.pop();
+// console.log(popped1);
+
+// console.log(friends);
+// friends.shift();
+// friends.shift();
+// console.log(friends);
+
+// console.log(friends.includes('Michael'));
+// console.log(friends.includes('Bob'));
+
+// console.log(friends)
+
+// if (friends.includes('Steven')) {
+//     console.log('This is my friend Steven')
+// }
+
+
+
+
+//Challenge
+
+// const Jonas = {
+//     age: 46,
+//     hasLicense: true
+// }
+
+// console.log(Jonas.hasLicense)
+
+// const mark = {
+//     fullName: 'Mark Miller',
+//     mass: 78,
+//     height: 1.69,
+//     calcBMI: function () {
+//         this.bmi = this.mass / this.height ** 2;
+//         return this.bmi;
+//     }
+// }
+
+// const john = {
+//     fullName: 'John smith',
+//     mass: 100,
+//     height: 1.69,
+//     calcBMI: function () {
+//         this.bmi = this.mass / this.height ** 2;
+//         return this.bmi;
+//     }
+// }
+// mark.calcBMI();
+// john.calcBMI();
+// console.log(john.bmi, mark.bmi)
+
+// console.log(john['height'])
