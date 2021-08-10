@@ -10,6 +10,7 @@ const openModal = function () {
   overlay.classList.remove('hidden');
 };
 
+
 const closeModal = function () {
   modal.classList.add('hidden');
   overlay.classList.add('hidden');
@@ -24,7 +25,9 @@ overlay.addEventListener('click', closeModal);
 document.addEventListener('keydown', function (e) {
   // console.log(e.key);
 
-  if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+  if (e.key === 'Shift' && !modal.classList.contains('hidden')) {
     closeModal();
-  }
+  } 
 });
+
+
